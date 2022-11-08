@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "photoUrl": "/photo-1.png",
+    "price": "$4.354.365",
+    "adress": "7187 Morapa Dr.",
+    "liked": false,
+    "style": "one"
+  },
+  {
+    "id": 2,
+    "photoUrl": "/photo-2.png",
+    "price": "$4.354.365",
+    "adress": "9315 Nightingale Dr.",
+    "liked": false,
+    "style": "two"
+  },
+  {
+    "id": 3,
+    "photoUrl": "/photo-3.png",
+    "price": "$4.354.365",
+    "adress": "1301 Dolphin Terrace",
+    "liked": false,
+    "style": "three"
+  },
+  {
+    "id": 4,
+    "photoUrl": "/photo-4.png",
+    "price": "$4.354.365",
+    "adress": "14953 Sutton St",
+    "liked": false,
+    "style": "four"
+  },
+  {
+    "id": 5,
+    "photoUrl": "/photo-5.png",
+    "price": "$4.354.365",
+    "adress": "215 Milford Dr.",
+    "liked": false,
+    "style": "one"
+  },
+  {
+    "id": 6,
+    "photoUrl": "/photo-6.png",
+    "price": "$4.354.365",
+    "adress": "215 Milford Dr.",
+    "liked": false,
+    "style": "two"
+  }
+]
