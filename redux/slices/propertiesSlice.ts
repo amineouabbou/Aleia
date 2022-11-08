@@ -1,5 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import config from "../../data/config";
+
+const { apiURL }: any = config;
 
 export interface Property {
   id: number;
@@ -23,7 +26,7 @@ const initialState = {
 export const fetchProperties = createAsyncThunk(
   "list/fetchProperties",
   async (_, thunkAPI) => {
-    const response = await axios.get("http://localhost:3000/proerties.json");
+    const response = await axios.get(apiURL);
 
     return response.data;
   }
